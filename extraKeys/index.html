@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Extra Keys</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body style="font-family:arial;">
+   <script language="javascript"> <!--
+     function genAddy(suffix) {
+		var link = document.getElementById('eLink');
+		if ( link.innerHTML == "[ Tap here to reveal ]" )
+		{
+			var img = document.getElementById('eImg');
+			var target = 'h';
+			img.src = '../rmail.jpg';
+			target = target + 'e';
+			target = 't' + target + 'j';
+			target = target + 'e';
+			target = '.' + target + 'r';
+			target = target + 'd';
+			target = 's' + target + 'e';
+			target = 'p' + target;
+			target = 'p' + target;
+			target = 'a' + target + 's';
+			target = target + '+' + suffix;
+			target = target + '@gmail.com';
+			link.href = 'mailto:' + target;
+			link.innerHTML = target;
+			return false;
+		}
+		return true;
+	 }
+	 //--></script>
+		<table>
+			<tr>
+				<td>
+					<img src=extraKeys.icon.webp style="width:200px;height:200px;" />
+				</td>
+				<td style="vertical-align:top">
+					<p>&nbsp;</p>
+					<h2>Extra Keys</h2>
+					<h3 style="color:#606060">Keypad mapping tool</h3>
+					<h3 style="color:#606060">Support:  
+	  		<img name="eImg" id="eImg" src="../mail.jpg">&nbsp;<A id="eLink" HREF="" onclick="return genAddy('extraKeys');">[ Tap here to reveal ]</a>
+		</h3>
+				</td>
+			</tr>
+		</table>
+					<p>
+					Extra Keys is an app which allows the use of the Logitech G13 Advanced Gameboard on macOS, particularly macOS 10.15 (Catalina) and later, where the manufacturer's software ended, but also on macOS 10.14 (Mojave) if preferred.
+					</p>
+					<p>
+
+					The G13 Advanced Gameboard is a USB keypad which has been popular with gamers as well as non-gamers to increase their capabilities and efficiency controlling games, development tools, and other apps. Since manufacturer support for this hardware was dropped with the release of macOS Catalina, Extra Keys fills the void allowing owners to keep using their gameboard.
+					</p>
+		<a href="https://apps.apple.com/us/app/extra-keys/id1541973430?mt=12&amp;itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&amp;releaseDate=1607126400&h=c2bbf6b6d0c05e3a5a908b0283431cd7" alt="Download on the Mac App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+		<hr/>
+		<h2>Frequently Asked Questions</h2>
+		<ul>
+			<li><a href="#faqPermissions">Extra Keys was working but now doesn't create keystrokes when gameboard keys are pressed</a></li>
+			<li><a href="#faqInAppSupport">Other problems</a></li>
+		</ul>
+		<h3 id="faqPermissions">Extra Keys was working but now doesn't create keystrokes when gameboard keys are pressed</h3>
+		<p>Extra Keys needs permission in System Preferences in order to be able to generate keystrokes. If this is missing it will seem like Extra Keys detects your gameboard key presses and decodes them but cause anything to happen. Extra keys will also show a message to let you know that it needs permission.</p>
+		<img src="ExtraKeysShowingPermissionNeed.png"/>
+		</p>Here are the steps to fix this:</p>
+		<ol>
+			<li>Go to the <a href="x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility">Security & Privacy</a> preferences, located in System Preferences or from the link here</li>
+			<li>Select Accessibility on the left side</li>
+			<li>Click the lock in the lower-left of the System Preferences window to unlock making changes</li>
+			<li>If already listed but not checked, select Extra Keys on the right side and check the box next to it</li>
+			<li>If already listed and checked but not working, select Extra Keys on the right side and click the minus button to remove Extra Keys from the list. Then click the plus button and select Extra Keys from Applications to add it back onto the list</li>
+		</ol>
+
+		<img src="SystemPreferences.png"/>
+
+		<p>I&lsquo;m not sure if you even need to quit and reopen Extra Keys after granting permission, but that and rebooting are good things to try if Extra Keys continues to report that it doesn&lsquo;t have premission.</p>
+		<h3 id="faqInAppSupport">Other problems</h3>
+		<p>Extra Keys includes a much more detailed help section within the app. Just click the question-mark circle in the lower right corner of the Extra Keys window to view it.</p>
+		<hr />
+		<div style="text-align: center">
+			<h3>
+				<a href=/><p style="text-align: center; display: inline">home</p></a>
+				<p style="display: inline"><font color=#3F92EE>/</font><font style="font-weight: 700; size: 18px" color=#759C47>/</font></p>
+				<a href=/portfolio><p style="text-align: center; display: inline">portfolio</p></a>
+			</h3>
+		</div>
+	</body>
+</html>
+
